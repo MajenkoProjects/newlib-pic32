@@ -78,6 +78,11 @@ double	atof (const char *__nptr);
 #if __MISC_VISIBLE
 float	atoff (const char *__nptr);
 #endif
+char * dtostrf(double number, signed char width, unsigned char prec, char *s);
+char* ltoa(long value, char* result, int base);
+void reverse(char* begin, char* end);
+char* ultoa(unsigned long value, char* result, int base);
+
 int	atoi (const char *__nptr);
 int	_atoi_r (struct _reent *, const char *__nptr);
 long	atol (const char *__nptr);

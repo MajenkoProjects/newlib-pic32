@@ -54,6 +54,7 @@ Supporting OS subroutines required: <<close>>, <<fstat>>, <<isatty>>,
 
 
 #include <stdlib.h>
+#include <stddef.h>
 #include <_ansi.h>
 
 double

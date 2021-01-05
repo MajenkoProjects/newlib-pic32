@@ -46,6 +46,7 @@ Supporting OS subroutines required: <<close>>, <<fstat>>, <<isatty>>,
 */
 
 #include <stdlib.h>
+#include <stddef.h>
 #include "atexit.h"
 
 /*

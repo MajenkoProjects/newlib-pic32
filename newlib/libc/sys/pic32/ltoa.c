@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 char* ltoa(long value, char* result, int base) {
     if(base < 2 || base > 16) {
         *result = 0;
