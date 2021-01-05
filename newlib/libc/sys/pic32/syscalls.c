@@ -26,7 +26,7 @@ void *sbrk(int nbytes) {
 
 
 
-void __cxa_pure_virtual() { while (1); }
+//void __cxa_pure_virtual() { while (1); }
 
 void __attribute__((weak)) _exit(int rc) {
     asm volatile("di");
