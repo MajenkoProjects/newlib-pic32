@@ -573,6 +573,10 @@ case "${host}" in
   mips*-dec-*)
 	sys_dir=decstation
 	;;
+  mips*-pic32-*)
+    newlib_cflags="${newlib_cflags} -mips32r2"
+    sys_dir=pic32
+    ;;
   mmix-knuth-mmixware)
 	sys_dir=mmixware
 	;;
