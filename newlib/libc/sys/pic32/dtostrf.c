@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>
+#include <math.h>
 
 char * dtostrf(double number, signed char width, unsigned char prec, char *s) {
     bool negative = false;
